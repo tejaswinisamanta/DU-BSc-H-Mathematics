@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematics</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      h2 {
+        text-align: center;
+
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      h3 {
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      button {
+        display: block;
+        margin: auto;
+        color: whitesmoke;
+        font-size: 12px;
+        background-color: rgb(65, 125, 216);
+        border-radius: 10px;
+        padding: 10px 15px;
+        transition: background-color 250ms ease;
+        box-shadow: 4px 4px 10px rgb(160, 160, 160);
+      }
+
+      .theme-button {
+        display: block;
+        margin: auto;
+        color: whitesmoke;
+        font-size: 12px;
+        background-color: rgb(65, 125, 216);
+        border-radius: 10px;
+        padding: 10px 15px;
+        transition: background-color 250ms ease;
+        box-shadow: 4px 4px 10px rgb(160, 160, 160);
+      }
+
+      button:hover {
+        background-color: wheat;
+        color: black;
+        box-shadow: 4px 4px 10px rgb(100, 100, 100);
+        transform: scale(1.05);
+      }
+
+      img {
+        width: 200px;
+        border: 2px solid wheat;
+        border-radius: 5px;
+      }
+
+      img:hover {
+        box-shadow: 4px 4px 10px rgb(100, 100, 100);
+        transform: scale(1.05);
+        opacity: 0.85;
+        transition: all 0.1s ease-in-out;
+      }
+
+      div {
+        background: white;
+        max-width: 900px;
+        padding: 5px;
+        border-radius: 20px;
+        margin: 10px auto;
+      }
+
+      .btn-group {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2px;
+        margin-top: 10px;
+      }
+
+      .subjects-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        background: white;
+        max-width: 1000px;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 20px auto;
+      }
+
+      .subject {
+        text-align: center;
+      }
+
+      hr {
+        border: none;
+        height: 10px;
+        background: linear-gradient(
+          to right,
+          transparent,
+          transparent,
+          transparent
+        );
+      }
+
+      body {
+        background: linear-gradient(135deg, #e3a6e7, #f6d6f8);
+      }
+
+      .dark {
+        background: linear-gradient(112.1deg, rgb(32,38,57) 11.4%, rgb(63,76,119) 70.2%);
+        color: white;
+      }
+
+      .dark .subjects-row {
+        background: rgba(255, 255, 255, 0.6);
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <h1>B.Sc. (Honours) Mathematics</h1>
+    <h1>University of Delhi</h1>
+
+    <h2>Resources</h2>
+    <button class="theme-button">Change theme</button>
+    <hr />
+
+    <h3>Semester - I</h3>
+    <div class="subjects-row">
+      <div class="subject">
+        <p>Real Analysis</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/243/original/Real_Analysis.png?1757082310"
+          alt="Real_Analysis"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Probability & Statistics</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/244/original/Probability___Statistics.png?1757082405"
+          alt="Probability_Statistics"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Algebra</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/245/original/Algebra.png?1757082518"
+          alt="Algebra"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+    </div>
+    <button>Study plan</button>
+
+    <hr />
+    <hr />
+
+    <h3>Semester - II</h3>
+    <div class="subjects-row">
+      <div class="subject">
+        <p>Linear Algebra</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/247/original/Linear_Algebra.png?1757082651"
+          alt="Linear_Algebra"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Calculus</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/246/original/Calculus.png?1757082579"
+          alt="Calculus"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Ordinary Differential Equations</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/248/original/Ordinary_Differential_Equations.png?1757082683"
+          alt="ODE"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+    </div>
+    <button>Study plan</button>
+
+    <hr />
+    <hr />
+
+    <h3>Semester - III</h3>
+    <div class="subjects-row">
+      <div class="subject">
+        <p>Group Theory</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/251/original/Group_Theory.png?1757082907"
+          alt="Group_Theory"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Riemann Integration</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/249/original/Riemann_Integration.png?1757082816"
+          alt="Riemann_Integration"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Discrete Mathematics</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/250/original/Discrete_Mathematics.png?1757082857"
+          alt="Discrete_Mathematics"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+    </div>
+    <button>Study plan</button>
+
+    <hr />
+    <hr />
+
+    <h3>Generic Elective (GE)</h3>
+
+    <div class="subjects-row">
+      <div class="subject">
+        <p>Introduction to Programming Using Python</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/302/original/Python.png?1757145484"
+          alt="Python"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Data Analysis and Visualization Using Python</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/305/original/Data_Analysis.png?1757146098"
+          alt="Data_Analysis"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+
+      <div class="subject">
+        <p>Database Management Systems</p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/303/original/DBMS.png?1757145573"
+          alt="DBMS"
+        />
+        <div class="btn-group">
+          <button>Readings</button>
+          <button>Notes</button>
+          <button>PYQs</button>
+        </div>
+      </div>
+    </div>
+
+    <h3>Made by Tejaswini Samanta</h3>
+
+    <hr />
+    <hr />
+    <hr />
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
